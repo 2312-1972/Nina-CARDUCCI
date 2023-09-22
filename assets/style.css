@@ -40,8 +40,9 @@ body {
 
 .social-link img {
 	width: 20px;
-	height: auto;
+	height: 20px;
 }
+
 
 #about {
 	display: flex;
@@ -69,8 +70,9 @@ body {
 }
 
 .picture img {
-	width: 100%;
-	height: auto;
+	width: 374px;
+	height: 329px;
+	object-fit: cover;
 }
 
 
