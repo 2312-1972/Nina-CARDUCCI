@@ -14,16 +14,16 @@
 	<meta http-equiv="cache-control" content="max-age=31536000"> <!-- 1 an en secondes -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet">
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" media="print" onload="this.media='all'" async>
+
 
 	<!-- Mise en cache des ressources JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" async></script>
-	<script src="./assets/bootstrap/bootstrap.bundle.js" async></script>
-	<script src="./assets/maugallery.js" async></script>
-	<script src="./assets/scripts.js" async></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 
 </head>
 
@@ -201,7 +201,7 @@
 					<input type="email" name="email" id="email" autocomplete="email">
 					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10" autocomplete="message"></textarea>
-					<input type="submit" value="Envoyer" />
+				<input type="submit" value="Envoyer" />
 				</form>
 			</div>
 			<div class="picture right">
