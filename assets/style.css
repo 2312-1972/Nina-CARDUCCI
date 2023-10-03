@@ -77,7 +77,10 @@ body {
     height: 329px;
     object-fit: cover;
 }
-
+#smartphone-nina{
+  width: 244px;
+  height: 243px;
+}
 #about-me {
     flex: 2;
 }
