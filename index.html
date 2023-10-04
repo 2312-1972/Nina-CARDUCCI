@@ -11,27 +11,38 @@
 	<meta name="google-site-verification" content="_xrvCSTrN0eQppDQOK_QRQ_jN7gU1_wVnHt3yvMXoeI" />
 	<script type="application/ld+json">
 		{
-		  "@context": "http://schema.org",
-		  "@type": "Person",
-		  "name": "Nina Carducci",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200"
-		  },
-		  "telephone": "05 56 67 78 89",
-		  "availability": "http://schema.org/AvailableMondayToFriday",
-		  "contactPoint": {
-			"@type": "ContactPoint",
+			"@context": "http://schema.org",
+			"@type": "Person",
+			"name": "Nina Carducci",
 			"telephone": "05 56 67 78 89",
-			"contactType": "customer service",
-			"availableLanguage": "French",
-			"availableHours": [
-			  "Mo-Fr 10:00-19:00"
-			]
+			"address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "68 avenue Alsace-Lorraine",
+			  "addressLocality": "Bordeaux",
+			  "postalCode": "33200"
+			},
+			"contactPoint": {
+			  "@type": "ContactPoint",
+			  "telephone": "05 56 67 78 89",
+			  "contactType": "customer service",
+			  "availableLanguage": "French",
+			  "hoursAvailable": [
+				{
+				  "@type": "OpeningHoursSpecification",
+				  "dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				  ],
+				  "opens": "10:00",
+				  "closes": "19:00"
+				}
+			  ]
+			}
 		  }
-		}
+		  
 		</script>
 	<!-- Balises Open Graph pour Facebook -->
 	<meta property="og:title" content="Titre du contenu Facebook">
