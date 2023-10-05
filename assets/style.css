@@ -323,7 +323,9 @@ input[type="submit"] {
     #services .container {
         flex-direction: column;
     }
-
+    .gallery .nav {
+        gap: 20px;
+    }
     .service {
         width: 100%;
         max-width: 100%;
