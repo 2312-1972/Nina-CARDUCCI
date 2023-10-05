@@ -280,11 +280,13 @@ input[type="submit"] {
         margin-bottom: 1em;
     }
 
+   }
+
     #about-me h6,
     #about-me p {
         width: 80%;
     }
-}
+
 
 @media all and (max-width: 1000px) {
     #about {
@@ -309,7 +311,15 @@ input[type="submit"] {
         text-align: center;
         margin-top: 1em;
     }
-
+    .about-me__introduction{
+        text-align: center;
+        width: 100%;
+    }
+   #about-me p{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+   }
     #services .container {
         flex-direction: column;
     }
@@ -382,7 +392,9 @@ input[type="submit"] {
     .service {
         max-width: 90%;
     }
-
+    .h6, h6{
+            font-size: 100%;
+    }
     #about,
     #contact {
         padding-inline: 2em;
